@@ -1,4 +1,4 @@
-# mclust 6.1.1  [NOT ON CRAN]
+# mclust 6.1.1
 
 - Corrected computation of df for MclustDA and EDDA classification 
   models.

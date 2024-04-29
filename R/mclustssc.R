@@ -268,7 +268,7 @@ MclustSSC.fit <- function(data, class,
                    (loglik - loglik0) > control$tol[1] )
     if(.verbose)
       cat("iter =", iter, "  loglik =", loglik, 
-          " Δ =", loglik - loglik0, "\n")
+          " \u0394 =", loglik - loglik0, "\n")
     loglik0 <- loglik
   }
   fit <- fit.m
